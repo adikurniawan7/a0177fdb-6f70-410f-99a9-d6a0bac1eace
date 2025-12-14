@@ -13,9 +13,9 @@ public class Main
     {
         var substrings = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
         List<int> numbers = [];
-        foreach (string substring in substrings)
+		foreach (var substring in substrings)
         {
-            if (int.TryParse(substring, out int number))
+            if (int.TryParse(substring, out var number))
             {
                 numbers.Add(number);
             }
@@ -31,7 +31,7 @@ public class Main
         var result = new List<int> { numbers[0] };
         var current = new List<int> { numbers[0] };
 
-        for (int i = 0; i < numbers.Length; i++)
+        for (var i = 0; i < numbers.Length; i++)
         {
             if (current.Last() < numbers[i])
             {
