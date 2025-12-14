@@ -48,6 +48,11 @@ Main file consist of 3 functions:
 * If last number is smaller than current number, add to the current pool
 * else clear current pool
 
+## Future Improvements
+1. Find Longest Increasing Subsequence algorithm can be improved.
+2. Solution containerisation using Docker
+3. Add generate code coverage report as part of CI Workflow. Currently I created the report manually and committed it to the repo.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
