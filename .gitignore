@@ -1,0 +1,5 @@
+/LongestIncreasingSubsequence/obj/*
+/LongestIncreasingSubsequence.Test/obj/*
+/.vs/*
+/LongestIncreasingSubsequence.Test/bin/*
+/LongestIncreasingSubsequence/bin/*
